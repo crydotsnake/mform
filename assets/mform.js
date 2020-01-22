@@ -249,7 +249,7 @@ function mform_custom_link(item) {
         });
         extern_button.unbind().bind('click', function () {
             show_hidden_link(hidden_input, showed_input);
-            let extern_link = prompt('Link', 'http://');
+            let extern_link = prompt('Link', 'https://');
             if (extern_link != 'http://' && extern_link != "" && extern_link != undefined) {
                 showed_input.val(extern_link);
                 hidden_input.val(extern_link);
