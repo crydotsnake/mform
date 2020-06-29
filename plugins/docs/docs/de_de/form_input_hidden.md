@@ -87,7 +87,7 @@ $mform->addTextField(1, array('label'=>'Label Name'), array('empty'), 'Default-V
 $mform = new MForm();
 
 // add textinput field
-$mform->addTextReadOnlyField(1, 'Value Text', array('label'=>'Label Name');
+$mform->addTextReadOnlyField(1, 'Value Text', array('label'=>'Label Name'));
 ```
 
 
@@ -133,7 +133,7 @@ $mform->addTextAreaField(1, array('label'=>'Label Name'), array('empty'), 'Defau
 $mform = new MForm();
 
 // add textinput field
-$mform->addTextAreaReadOnlyField(1, 'Value Text', array('label'=>'Label Name');
+$mform->addTextAreaReadOnlyField(1, 'Value Text', array('label'=>'Label Name'));
 ```
 
 
@@ -151,7 +151,7 @@ $mform->addTextAreaReadOnlyField(1, 'Value Text', array('label'=>'Label Name');
 $mform = new MForm();
 
 // add textinput field
-$mform->addHiddenField(1, 'Value Text', array('data-hidden'=>'hiddenfield');
+$mform->addHiddenField(1, 'Value Text', array('data-hidden'=>'hiddenfield'));
 ```
 
 
